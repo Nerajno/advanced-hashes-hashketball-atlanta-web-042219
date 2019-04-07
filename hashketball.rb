@@ -162,7 +162,10 @@ end
 def player_numbers(team_name)
    jersey_numbers = []
    game_hash.each do |team, team_data|
-     
+     team_data[:players].each do |this_player, player_data|
+       binding.pry
+        puts player_data
+     end
     #iterate through each team
     #iterate through each place
     # collect their #s
