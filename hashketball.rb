@@ -155,5 +155,5 @@ def team_names #(game_hash) => optional
   game_hash.each do |team, team_data|
     rtnd_team_names += team_data[:team_name]
    end
-  return rtnd_team_names.flatten
+  return rtnd_team_names
 end
