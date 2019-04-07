@@ -151,11 +151,9 @@ end
 end
 
 def team_names #(game_hash) => optional
+  rtnd_team_names = []
   game_hash.each do |team, team_data|
-    rtnd_team_name = []
-    team_data.each do |team_keys, team_vals|
-      binding.pry
-      puts team_vals
-    end
+    rtnd_team_names = += team_data[:team_name]
    end
+  return rtnd_team_names.flatten
 end
