@@ -153,9 +153,8 @@ end
 def team_names #(game_hash) => optional
   game_hash.each do |team, team_data|
     rtnd_team_name = []
-      binding.pry
-      puts team_data
     team_data.each do |team_keys, team_vals|
+      binding.pry
       puts team_vals
     end
    end
