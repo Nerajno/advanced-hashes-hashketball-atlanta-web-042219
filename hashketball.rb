@@ -183,3 +183,11 @@ def player_stats(player_name)
   end
 end
 end
+
+
+def big_shoe_rebounds
+  largest_shoe_size
+  game_hash.each do |team, team_data|
+    #
+  end
+end
