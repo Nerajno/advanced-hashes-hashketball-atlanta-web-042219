@@ -157,3 +157,10 @@ def team_names #(game_hash) => optional
   end
   return rtnd_team_names
 end
+]
+
+def player_numbers(team_name)
+   game_hash.each do |team, team_data|
+
+   end
+end
