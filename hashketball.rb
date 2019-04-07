@@ -162,7 +162,6 @@ end
 def player_numbers(team_name)
    jersey_numbers = []
    game_hash.each do |team, team_data|
-binding.pry
      if team_data[:team_name] == team_name
      team_data[:players].each do |this_player, player_data|
        jersey_numbers += [player_data[:number]]
