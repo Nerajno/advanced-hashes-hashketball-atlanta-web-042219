@@ -150,7 +150,7 @@ def team_colors(team_name)
 end
 end
 
-def team_name #(game_hash) => optional
+def team_names #(game_hash) => optional
   game_hash.each do |team, team_data|
     rtnd_team_name = []
       binding.pry
